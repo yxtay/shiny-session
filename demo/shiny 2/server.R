@@ -35,23 +35,7 @@ shinyServer(function(input, output, session) {
         x <- dist(n, par1, par2)
         summary(x)
     })
-    
-    output$summary <- renderPrint({
-        input$sample
-        
-        n <- input$n
-        dist <- switch(input$dist,
-                       norm = rnorm,
-                       lnorm = rlnorm,
-                       cauchy = rcauchy)
-        par1 <- input$par1
-        par2 <- input$par2
-        
-        x <- dist(n, par1, par2)
-        summary(x)
-    })
-    
-    
+
     output$table <- renderDataTable({
         input$sample
         

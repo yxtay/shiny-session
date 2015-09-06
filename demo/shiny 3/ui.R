@@ -50,7 +50,7 @@ shinyUI(fluidPage(
                     dataTableOutput("table")
                 ),
                 
-                type = "tabs" # also try pills
+                type = "pills" # also try pills
             )
             
         )

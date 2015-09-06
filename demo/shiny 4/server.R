@@ -16,8 +16,8 @@ shinyServer(function(input, output, session) {
         
         x <- dist(n, par1, par2)
         
-        # list(x, n, par1, par2)
-        list(x = x, n = n, par1 = par1, par2 = par2)
+        list(x, n, par1, par2)
+        # list(x = x, n = n, par1 = par1, par2 = par2)
     })
     
     output$plot <- renderPlot({

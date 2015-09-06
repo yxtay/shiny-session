@@ -1,5 +1,6 @@
-setwd("~/../Google Drive/shiny-session/demo/")
+setwd("~/../Github/shiny-session/demo/")
 
+install.packages(c("shiny", "shinythemes"), dependencies = T)
 library(shiny)
 
 system.file("examples", package="shiny")
