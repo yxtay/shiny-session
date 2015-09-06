@@ -14,7 +14,6 @@ shinyServer(function(input, output, session) {
         hist(x, breaks = 30, freq = F,
              main = "Normal Distribution")
         # lines(density(x, bw = "nrd"))
-        
     })
     
 })

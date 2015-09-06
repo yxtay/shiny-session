@@ -1,6 +1,9 @@
 library(shiny)
 
-# reactivity demo
+# reactivity
+# debugging
+# comma
+# download handler
 
 shinyUI(fluidPage(
     

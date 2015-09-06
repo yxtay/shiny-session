@@ -2,6 +2,7 @@ library(shiny)
 
 # widgets
 # render output
+# table vs data table
 
 shinyUI(fluidPage(
     

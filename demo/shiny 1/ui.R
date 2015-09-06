@@ -1,6 +1,10 @@
 library(shiny)
 
-# intro demo
+# showcase mode
+# layout
+# widgets: sliderInput vs numericInput
+# slider animate
+# action button
 
 shinyUI(fluidPage(
     
